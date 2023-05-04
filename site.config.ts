@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Мой список невозможного',
-  domain: 'igotocrypto.ru',
+  domain: 'vlafriday.space',
   author: 'vlafriday',
 
   // open graph metadata (optional)
@@ -18,11 +18,11 @@ export default siteConfig({
 
   // social usernames (optional)
   twitter: 'vlafriday',
-  github: 'vlafriday',
+  //github: 'vlafriday',
   linkedin: 'fridaytoday',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
-  youtube: '@igotocrypto', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
+  youtube: '@vlafriday', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults

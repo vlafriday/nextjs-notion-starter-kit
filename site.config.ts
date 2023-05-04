@@ -19,7 +19,7 @@ export default siteConfig({
   // social usernames (optional)
   twitter: 'vlafriday',
   //github: 'vlafriday',
-  linkedin: 'fridaytoday',
+  //linkedin: 'vlafriday',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   youtube: '@vlafriday', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`

@@ -2,27 +2,27 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'f2af86bdaa204d5580e3657d20253133',
+  rootNotionPageId: 'e13f5b4d15ab4abcab12c990c0cbdb69',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Мой список невозможного',
-  domain: 'vlafriday.space',
-  author: 'vlafriday',
+  name: 'Идущий к крипте',
+  domain: 'igotocrypto.online',
+  author: 'Идущий к крипте',
 
   // open graph metadata (optional)
-  description: 'То, что они говорили невозможно, я когда-то выполню',
+  description: 'Изучаем как можно заработать на криптовалюте, разбираемся в лаунчпадах, ICO и IDO, что такое биткоин и блокчейн, где же деньги в крипте и как на этом заработать.',
 
   // social usernames (optional)
-  twitter: 'vlafriday',
+  twitter: 'igotocrypto',
   //github: 'vlafriday',
   //linkedin: 'vlafriday',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
-  youtube: '@vlafriday', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
+  youtube: '@igotocrypto', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -50,16 +50,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  // navigationStyle: 'default'
-  navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: 'About',
-      pageId: 'af7bd9afcfda4fde805684ad76f4e26d' //my
-    },
-    {
-      title: 'Contact',
-      pageId: 'a92d3439695b41c0b813724811e2edb8' //my
-    }
-  ]
+  navigationStyle: 'default'
+  // navigationStyle: 'custom',
+  // navigationLinks: [
+  //   {
+  //     title: 'About',
+  //     pageId: 'af7bd9afcfda4fde805684ad76f4e26d' //my
+  //   },
+  //   {
+  //     title: 'Contact',
+  //     pageId: 'a92d3439695b41c0b813724811e2edb8' //my
+  //   }
+  // ]
 })

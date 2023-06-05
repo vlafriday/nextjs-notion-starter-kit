@@ -14,7 +14,6 @@ import styles from './styles.module.css'
 const ToggleThemeButton = () => {
   const [hasMounted, setHasMounted] = React.useState(false)
   const { isDarkMode, toggleDarkMode } = useDarkMode()
-<meta name="yandex-verification" content="b330a7017ab6ab5a" />
   React.useEffect(() => {
     setHasMounted(true)
   }, [])

@@ -22,6 +22,7 @@ export const PageHead: React.FC<
 
   return (
     <Head>
+      <meta name="yandex-verification" content="b330a7017ab6ab5a" />
       <meta charSet='utf-8' />
       <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
       <meta

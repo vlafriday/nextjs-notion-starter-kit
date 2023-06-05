@@ -21,8 +21,7 @@ export const PageHead: React.FC<
   const socialImageUrl = getSocialImageUrl(pageId) || image
 
   return (
-    <Head>
-      <meta name="yandex-verification" content="b330a7017ab6ab5a" />
+    <Head>     
       <meta charSet='utf-8' />
       <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
       <meta
